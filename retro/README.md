@@ -2,7 +2,11 @@
 
 Aquí escribe quien usa el kit. Cada 3 días las primeras 2 semanas y luego cada semana. Cuenta **el cómo, no el qué**: no hace falta contar en qué trabajaste, sino cómo te funcionó trabajar así.
 
+**Dónde:** en esta carpeta del repo original de la plantilla, no en tu copia.
+
 **Nombre:** `retro/AAAA-MM-DD.md`
+
+**Cómo subirlo:** en GitHub, dentro de `retro/`, pulsa **Add file → Create new file**, pega el formato y pulsa **Commit changes**. O pídeselo a tu agente de Claude si le diste acceso a este repo.
 
 **Formato:**
 

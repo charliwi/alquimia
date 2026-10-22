@@ -18,16 +18,24 @@ Este repo es una **plantilla**. Cópialo a tu cuenta y hazlo tuyo.
 
 ## Arranque paso a paso
 
-1. **Cuenta de Claude.** Entra a claude.ai con tu cuenta. Si vas a usar Claude Code en la nube, abre claude.ai/code.
-2. **Tu repo.** En GitHub, en esta plantilla, pulsa **Use this template → Create a new repository**. Hazlo **privado**. Ponle el nombre que quieras (por ejemplo `mi-alquimia`).
-3. **Conecta GitHub a Claude.** En claude.ai/code autoriza GitHub y elige tu repo nuevo.
-4. **Tu primer espacio.** Copia `espacios/_plantilla/` a `espacios/<nombre>/` (por ejemplo `espacios/trabajo/`) y llena `CONTEXTO.md` en tres líneas: qué es, qué no es, quién decide.
+**Antes de empezar:** si te invitaron a este repo, acepta la invitación desde el correo de GitHub o en github.com/notifications. Sin eso no puedes ver la plantilla.
+
+1. **Tu repo.** En esta página pulsa **Use this template → Create a new repository**. Elige **tu** cuenta como dueña, hazlo **privado** y ponle el nombre que quieras (por ejemplo `mi-alquimia`). Tu copia sale limpia y es tuya: ahí trabajas todos los días.
+2. **Claude.** Entra a claude.ai/code con **tu** cuenta de Claude. Autoriza GitHub e instala la app de Claude **sólo en tu repo nuevo**.
+3. **ChatGPT para la voz.** En tu celular usa **tu** ChatGPT en modo voz como entrada: dicta ideas y encargos. Lo que dictes lo pasas a `bandeja/` de tu repo (lo pegas en tu sesión de Claude o lo sube Codex).
+4. **Tu primer espacio.** En tu repo, copia `espacios/_plantilla/` a `espacios/<nombre>/` (por ejemplo `espacios/trabajo/`) y llena `CONTEXTO.md` en tres líneas: qué es, qué no es, quién decide. Borra `espacios/ejemplo/` cuando ya no lo necesites.
 5. **Tu primer agente.** Abre una sesión de Claude Code sobre tu repo y pégale:
 
    > Eres mi agente de orquesta. Lee REGLAS.md y PAPELES.md. Después lee espacios/*/ESTADO.md y sus bandejas. Dame un resumen corto: qué hay, qué espera de mí, y un solo siguiente paso.
 
 6. **Cierra el día.** Al terminar, pide al agente que reescriba el `ESTADO.md` del espacio con la plantilla, haga commit y push, y corra `python3 scripts/visor.py`.
-7. **Retro.** Cada 3 días las primeras 2 semanas, y luego cada semana, escribe un retro en `retro/`.
+7. **Retro.** Cada 3 días las primeras 2 semanas y luego cada semana. El retro va en la carpeta `retro/` **de esta plantilla original** (no de tu copia): así llega a quien mantiene el kit. Ver [retro/README.md](retro/README.md).
+
+## Si te invitaron a este repo
+
+- Aquí **sólo escribes en `retro/`**. El resto (reglas, papeles, scripts) no se toca: si quieres cambiar algo, propónlo en tu retro.
+- Tu trabajo diario, tus espacios y tus agentes viven en **tu** copia, no aquí.
+- Nada de lo que hagas en tu copia llega a este repo.
 
 ## Principios
 

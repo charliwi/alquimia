@@ -4,13 +4,15 @@ Tres papeles. Pueden ser tres agentes o uno solo al principio. Lo que importa es
 
 | Papel | Qué hace | Qué no hace | Dónde suele vivir |
 |---|---|---|---|
-| **Entrada** | Escucha (voz o chat), guarda lo que dices en `bandeja/`, te cuenta cómo van los espacios | No decide ni produce; canaliza | Una app de voz o chat en el celular |
-| **Orquesta** | Revisa lo que llega contra las reglas, señala tensiones, ordena pendientes y manda encargos a cada espacio | No ejecuta el trabajo del espacio | Claude Code sobre tu repo |
-| **Ejecución** | Produce el entregable (documento, hoja, página, código), lo guarda donde va y deja acuse | No inventa encargos ni envía nada sin tu sí | Claude Code, una sesión por encargo |
+| **Entrada** | Escucha (voz o chat), guarda lo que dices en `bandeja/`, te cuenta cómo van los espacios | No decide ni produce; canaliza | **ChatGPT, en modo voz**, en el celular |
+| **Orquesta** | Revisa lo que llega contra las reglas, señala tensiones, ordena pendientes y manda encargos a cada espacio | No ejecuta el trabajo del espacio | **Claude** (Claude Code sobre tu repo) |
+| **Ejecución** | Produce el entregable (documento, hoja, página, código), lo guarda donde va y deja acuse | No inventa encargos ni envía nada sin tu sí | **Claude** (Claude Code, una sesión por encargo) |
+
+**Por qué así:** la voz va por ChatGPT porque es la que mejor funciona para dictar y pensar en voz alta en movimiento. La orquesta y la ejecución van en Claude porque trabajan por escrito sobre tu repo: leen las reglas, escriben, hacen commit y push.
 
 ## El ciclo
 
-1. Dices algo a **Entrada**. Queda una nota en `bandeja/` con fecha.
+1. Dices algo a **Entrada** (ChatGPT, por voz). Queda una nota en `bandeja/` con fecha.
 2. **Orquesta** la lee, la contrasta con las reglas y te propone un encargo cerrado.
 3. Das el sí. Orquesta deja el encargo en la bandeja del espacio.
 4. **Ejecución** lo produce, te lo muestra y deja su acuse en la sección «Recepción» del encargo.

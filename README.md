@@ -1,4 +1,4 @@
-# Alkimia
+# alkimia
 
 Un kit para trabajar con varios agentes de IA sin perder el hilo. Tú decides; los agentes escuchan, ordenan y ejecutan. La voz va por ChatGPT; la orquesta y la ejecución, por Claude. Todo lo que se decide queda escrito en tu GitHub, y los documentos pesados viven en tu Drive.
 

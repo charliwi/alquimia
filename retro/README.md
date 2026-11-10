@@ -1,8 +1,10 @@
 # Retro
 
-Aquí escribe quien usa el kit. Cada 3 días las primeras 2 semanas y luego cada semana. Cuenta **el cómo, no el qué**: no hace falta contar en qué trabajaste, sino cómo te funcionó trabajar así.
+El retro lo arma tu agente cada día al cerrar. Cuenta **el cómo, no el qué**: no hace falta contar en qué trabajaste, sino cómo te funcionó trabajar así.
 
-**Dónde:** por correo a carlos@iwi.com.mx con el asunto «Retro alkimia · AAAA-MM-DD» (la vía principal), o en esta carpeta del repo original de la plantilla, no en tu copia.
+**Dónde:** tu agente lo deja por la puerta de alkimia con la herramienta `dejarRetro`, que lo guarda en una carpeta de nuestro entorno, firmado con tu llave. Si no tienes la puerta conectada o falla, mándalo por correo a carlos@iwi.com.mx con el asunto «Retro alkimia · AAAA-MM-DD».
+
+**Qué no va:** datos tuyos o de tus clientes, nombres, teléfonos, correos, cuentas ni montos. Sólo el cómo y el patrón.
 
 **Nombre:** `retro/AAAA-MM-DD.md`
 

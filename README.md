@@ -14,7 +14,7 @@ Este repo es una **plantilla**. Cópialo a tu cuenta y hazlo tuyo.
 | `espacios/_plantilla/` | La carpeta que copias para cada espacio de trabajo nuevo |
 | `espacios/ejemplo/` | Un espacio inventado, para ver cómo se ve lleno |
 | `scripts/visor.py` y [VISOR.md](VISOR.md) | Una tabla con el estado de todos tus espacios |
-| `retro/` | Dónde escribes qué funcionó y qué no (ver [retro/README.md](retro/README.md)) |
+| `retro/` | Cómo se arma el retro diario que tu agente deja por la puerta (ver [retro/README.md](retro/README.md)) |
 
 ## Arranque paso a paso
 
@@ -29,11 +29,11 @@ Este repo es una **plantilla**. Cópialo a tu cuenta y hazlo tuyo.
    > Eres mi agente de orquesta. Lee REGLAS.md y PAPELES.md. Después lee espacios/*/ESTADO.md y sus bandejas. Dame un resumen corto: qué hay, qué espera de mí, y un solo siguiente paso.
 
 6. **Cierra el día.** Al terminar, pide al agente que reescriba el `ESTADO.md` del espacio con la plantilla, haga commit y push, y corra `python3 scripts/visor.py`.
-7. **Retro.** Cada 3 días las primeras 2 semanas y luego cada semana. El retro va en la carpeta `retro/` **de esta plantilla original** (no de tu copia): así llega a quien mantiene el kit. Ver [retro/README.md](retro/README.md).
+7. **Retro.** Cada día, al cerrar, tu agente deja el retro por la puerta de alkimia (`dejarRetro`): así llega a quien mantiene el kit. Si la puerta falla, va por correo. Ver [retro/README.md](retro/README.md).
 
 ## Si te invitaron a este repo
 
-- Aquí **sólo escribes en `retro/`**. El resto (reglas, papeles, scripts) no se toca: si quieres cambiar algo, propónlo en tu retro.
+- En esta plantilla original no se escribe: el retro llega por la puerta. Si quieres cambiar reglas, papeles o scripts, propónlo en tu retro.
 - Tu trabajo diario, tus espacios y tus agentes viven en **tu** copia, no aquí.
 - Nada de lo que hagas en tu copia llega a este repo.
 

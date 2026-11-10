@@ -6,10 +6,6 @@ El retro lo arma tu agente cada día al cerrar. Cuenta **el cómo, no el qué**:
 
 **Qué no va:** datos tuyos o de tus clientes, nombres, teléfonos, correos, cuentas ni montos. Sólo el cómo y el patrón.
 
-**Nombre:** `retro/AAAA-MM-DD.md`
-
-**Cómo subirlo:** en GitHub, dentro de `retro/`, pulsa **Add file → Create new file**, pega el formato y pulsa **Commit changes**. O pídeselo a tu agente de Claude si le diste acceso a este repo.
-
 **Formato:**
 
 ```markdown

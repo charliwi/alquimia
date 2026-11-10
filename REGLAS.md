@@ -33,6 +33,12 @@ Sigue: <siguiente paso y quién>
 Documentos: <enlaces a Drive>
 ```
 
+## Aviso: qué vemos y qué pedimos a cambio
+
+- **No vemos tus datos.** Lo que trabajas en tu copia es tuyo. No vemos ni nos interesan tus datos sensibles, los de tus clientes ni tus archivos.
+- **Lo que sí nos interesa es el patrón:** cómo aprendes, cómo te organizas y qué le cambiarías al kit, para que alkimia aprenda y sea más eficiente.
+- **Gratis a cambio de reportes.** Usar alkimia en esta etapa no tiene costo; a cambio, mandas tu retro con regularidad en `retro/` de la plantilla original (ver [retro/README.md](retro/README.md)). En el retro va el cómo, nunca datos sensibles.
+
 ## Límites para todos
 
 - Sin contraseñas, llaves, datos bancarios ni datos personales de terceros en el repo.

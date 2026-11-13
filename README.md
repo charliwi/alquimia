@@ -8,6 +8,7 @@ Este repo es una **plantilla**. Cópialo a tu cuenta y hazlo tuyo.
 
 | Archivo | Para qué |
 |---|---|
+| [PRIMER-DIA.md](PRIMER-DIA.md) | Tu primer día: qué se le pregunta a quién, en una página |
 | [REGLAS.md](REGLAS.md) | Las reglas comunes que siguen todos tus agentes |
 | [PAPELES.md](PAPELES.md) | Los tres papeles (entrada, orquesta, ejecución) y cuándo dividir un agente |
 | [CONEXIONES.md](CONEXIONES.md) | Cómo se conectan GitHub, Drive, Claude, Gemini y correo, y qué sí funciona |
